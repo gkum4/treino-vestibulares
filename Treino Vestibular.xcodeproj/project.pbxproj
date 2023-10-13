@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		0CCE54DC2AC8E2FF00B1124E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE54DB2AC8E2FF00B1124E /* AppDelegate.swift */; };
 		0CCE54DE2AC8E2FF00B1124E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE54DD2AC8E2FF00B1124E /* SceneDelegate.swift */; };
-		0CCE54E02AC8E2FF00B1124E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE54DF2AC8E2FF00B1124E /* ViewController.swift */; };
+		0CCE54E02AC8E2FF00B1124E /* VestibularesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE54DF2AC8E2FF00B1124E /* VestibularesListVC.swift */; };
 		0CCE54E32AC8E2FF00B1124E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CCE54E12AC8E2FF00B1124E /* Main.storyboard */; };
 		0CCE54E52AC8E30000B1124E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCE54E42AC8E30000B1124E /* Assets.xcassets */; };
 		0CCE54E82AC8E30000B1124E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CCE54E62AC8E30000B1124E /* LaunchScreen.storyboard */; };
 		0CCE54F32AC8E30000B1124E /* Treino_VestibularTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE54F22AC8E30000B1124E /* Treino_VestibularTests.swift */; };
-		0CCE54FD2AC8E30000B1124E /* Treino_VestibularUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE54FC2AC8E30000B1124E /* Treino_VestibularUITests.swift */; };
-		0CCE54FF2AC8E30000B1124E /* Treino_VestibularUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE54FE2AC8E30000B1124E /* Treino_VestibularUITestsLaunchTests.swift */; };
+		0CCE550D2AC8E32A00B1124E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0CCE550C2AC8E32A00B1124E /* SnapKit */; };
+		0CCE55152AC8E52800B1124E /* VestibularListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE55142AC8E52800B1124E /* VestibularListCell.swift */; };
+		0CCE55182AC8E5BD00B1124E /* Vestibulares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE55172AC8E5BD00B1124E /* Vestibulares.swift */; };
+		0CCE551A2AC8E5F900B1124E /* Vestibular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE55192AC8E5F900B1124E /* Vestibular.swift */; };
+		0CCE551D2AC8E69800B1124E /* Vestibular2022.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE551C2AC8E69800B1124E /* Vestibular2022.swift */; };
+		0CCE551F2AC8E8A700B1124E /* VestibularQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE551E2AC8E8A700B1124E /* VestibularQuestion.swift */; };
+		0CCE55212AC8E90000B1124E /* Vestibular2021.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE55202AC8E90000B1124E /* Vestibular2021.swift */; };
+		0CCE55232AC8EA5C00B1124E /* VestibularSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE55222AC8EA5C00B1124E /* VestibularSection.swift */; };
+		0CCE55292AC8EF6B00B1124E /* AnswersListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE55282AC8EF6B00B1124E /* AnswersListVC.swift */; };
+		0CCE552B2AC8F01E00B1124E /* AnswerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE552A2AC8F01E00B1124E /* AnswerListCell.swift */; };
+		0CCE552E2ACA33E200B1124E /* OptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE552D2ACA33E200B1124E /* OptionButton.swift */; };
+		0CECB1932AD1EA2E003D4F66 /* AnswerListNoAnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CECB1922AD1EA2E003D4F66 /* AnswerListNoAnswerCell.swift */; };
+		0CECB1952AD1F200003D4F66 /* AnswerListResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CECB1942AD1F200003D4F66 /* AnswerListResultCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +50,7 @@
 		0CCE54D82AC8E2FF00B1124E /* Treino Vestibular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Treino Vestibular.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCE54DB2AC8E2FF00B1124E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CCE54DD2AC8E2FF00B1124E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0CCE54DF2AC8E2FF00B1124E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CCE54DF2AC8E2FF00B1124E /* VestibularesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VestibularesListVC.swift; sourceTree = "<group>"; };
 		0CCE54E22AC8E2FF00B1124E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CCE54E42AC8E30000B1124E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CCE54E72AC8E30000B1124E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,8 +58,19 @@
 		0CCE54EE2AC8E30000B1124E /* Treino VestibularTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Treino VestibularTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCE54F22AC8E30000B1124E /* Treino_VestibularTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treino_VestibularTests.swift; sourceTree = "<group>"; };
 		0CCE54F82AC8E30000B1124E /* Treino VestibularUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Treino VestibularUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CCE54FC2AC8E30000B1124E /* Treino_VestibularUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treino_VestibularUITests.swift; sourceTree = "<group>"; };
-		0CCE54FE2AC8E30000B1124E /* Treino_VestibularUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treino_VestibularUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CCE55102AC8E44500B1124E /* Treino Vestibular.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Treino Vestibular.xctestplan"; sourceTree = "<group>"; };
+		0CCE55142AC8E52800B1124E /* VestibularListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VestibularListCell.swift; sourceTree = "<group>"; };
+		0CCE55172AC8E5BD00B1124E /* Vestibulares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vestibulares.swift; sourceTree = "<group>"; };
+		0CCE55192AC8E5F900B1124E /* Vestibular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vestibular.swift; sourceTree = "<group>"; };
+		0CCE551C2AC8E69800B1124E /* Vestibular2022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vestibular2022.swift; sourceTree = "<group>"; };
+		0CCE551E2AC8E8A700B1124E /* VestibularQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VestibularQuestion.swift; sourceTree = "<group>"; };
+		0CCE55202AC8E90000B1124E /* Vestibular2021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vestibular2021.swift; sourceTree = "<group>"; };
+		0CCE55222AC8EA5C00B1124E /* VestibularSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VestibularSection.swift; sourceTree = "<group>"; };
+		0CCE55282AC8EF6B00B1124E /* AnswersListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersListVC.swift; sourceTree = "<group>"; };
+		0CCE552A2AC8F01E00B1124E /* AnswerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerListCell.swift; sourceTree = "<group>"; };
+		0CCE552D2ACA33E200B1124E /* OptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionButton.swift; sourceTree = "<group>"; };
+		0CECB1922AD1EA2E003D4F66 /* AnswerListNoAnswerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerListNoAnswerCell.swift; sourceTree = "<group>"; };
+		0CECB1942AD1F200003D4F66 /* AnswerListResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerListResultCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CCE550D2AC8E32A00B1124E /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,9 +102,9 @@
 		0CCE54CF2AC8E2FF00B1124E = {
 			isa = PBXGroup;
 			children = (
+				0CCE55102AC8E44500B1124E /* Treino Vestibular.xctestplan */,
 				0CCE54DA2AC8E2FF00B1124E /* Treino Vestibular */,
 				0CCE54F12AC8E30000B1124E /* Treino VestibularTests */,
-				0CCE54FB2AC8E30000B1124E /* Treino VestibularUITests */,
 				0CCE54D92AC8E2FF00B1124E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,12 +122,12 @@
 		0CCE54DA2AC8E2FF00B1124E /* Treino Vestibular */ = {
 			isa = PBXGroup;
 			children = (
-				0CCE54DB2AC8E2FF00B1124E /* AppDelegate.swift */,
-				0CCE54DD2AC8E2FF00B1124E /* SceneDelegate.swift */,
-				0CCE54DF2AC8E2FF00B1124E /* ViewController.swift */,
-				0CCE54E12AC8E2FF00B1124E /* Main.storyboard */,
+				0CCE55112AC8E48500B1124E /* Core */,
+				0CCE552C2ACA33D900B1124E /* Components */,
+				0CCE55122AC8E49100B1124E /* Screens */,
+				0CCE551B2AC8E68100B1124E /* Data */,
+				0CCE55162AC8E59A00B1124E /* Models */,
 				0CCE54E42AC8E30000B1124E /* Assets.xcassets */,
-				0CCE54E62AC8E30000B1124E /* LaunchScreen.storyboard */,
 				0CCE54E92AC8E30000B1124E /* Info.plist */,
 			);
 			path = "Treino Vestibular";
@@ -118,13 +141,72 @@
 			path = "Treino VestibularTests";
 			sourceTree = "<group>";
 		};
-		0CCE54FB2AC8E30000B1124E /* Treino VestibularUITests */ = {
+		0CCE55112AC8E48500B1124E /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				0CCE54FC2AC8E30000B1124E /* Treino_VestibularUITests.swift */,
-				0CCE54FE2AC8E30000B1124E /* Treino_VestibularUITestsLaunchTests.swift */,
+				0CCE54DB2AC8E2FF00B1124E /* AppDelegate.swift */,
+				0CCE54DD2AC8E2FF00B1124E /* SceneDelegate.swift */,
+				0CCE54E12AC8E2FF00B1124E /* Main.storyboard */,
+				0CCE54E62AC8E30000B1124E /* LaunchScreen.storyboard */,
 			);
-			path = "Treino VestibularUITests";
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0CCE55122AC8E49100B1124E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0CCE55272AC8EF6000B1124E /* AnswersList */,
+				0CCE55132AC8E4E100B1124E /* VestibularesList */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0CCE55132AC8E4E100B1124E /* VestibularesList */ = {
+			isa = PBXGroup;
+			children = (
+				0CCE54DF2AC8E2FF00B1124E /* VestibularesListVC.swift */,
+				0CCE55142AC8E52800B1124E /* VestibularListCell.swift */,
+			);
+			path = VestibularesList;
+			sourceTree = "<group>";
+		};
+		0CCE55162AC8E59A00B1124E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0CCE55192AC8E5F900B1124E /* Vestibular.swift */,
+				0CCE55222AC8EA5C00B1124E /* VestibularSection.swift */,
+				0CCE551E2AC8E8A700B1124E /* VestibularQuestion.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0CCE551B2AC8E68100B1124E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0CCE55172AC8E5BD00B1124E /* Vestibulares.swift */,
+				0CCE551C2AC8E69800B1124E /* Vestibular2022.swift */,
+				0CCE55202AC8E90000B1124E /* Vestibular2021.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0CCE55272AC8EF6000B1124E /* AnswersList */ = {
+			isa = PBXGroup;
+			children = (
+				0CCE55282AC8EF6B00B1124E /* AnswersListVC.swift */,
+				0CCE552A2AC8F01E00B1124E /* AnswerListCell.swift */,
+				0CECB1942AD1F200003D4F66 /* AnswerListResultCell.swift */,
+				0CECB1922AD1EA2E003D4F66 /* AnswerListNoAnswerCell.swift */,
+			);
+			path = AnswersList;
+			sourceTree = "<group>";
+		};
+		0CCE552C2ACA33D900B1124E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0CCE552D2ACA33E200B1124E /* OptionButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +225,9 @@
 			dependencies = (
 			);
 			name = "Treino Vestibular";
+			packageProductDependencies = (
+				0CCE550C2AC8E32A00B1124E /* SnapKit */,
+			);
 			productName = "Treino Vestibular";
 			productReference = 0CCE54D82AC8E2FF00B1124E /* Treino Vestibular.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +300,9 @@
 				Base,
 			);
 			mainGroup = 0CCE54CF2AC8E2FF00B1124E;
+			packageReferences = (
+				0CCE550B2AC8E32A00B1124E /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 0CCE54D92AC8E2FF00B1124E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +346,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CCE54E02AC8E2FF00B1124E /* ViewController.swift in Sources */,
+				0CCE55232AC8EA5C00B1124E /* VestibularSection.swift in Sources */,
+				0CCE55152AC8E52800B1124E /* VestibularListCell.swift in Sources */,
+				0CCE55182AC8E5BD00B1124E /* Vestibulares.swift in Sources */,
+				0CECB1952AD1F200003D4F66 /* AnswerListResultCell.swift in Sources */,
+				0CCE551A2AC8E5F900B1124E /* Vestibular.swift in Sources */,
+				0CCE54E02AC8E2FF00B1124E /* VestibularesListVC.swift in Sources */,
+				0CCE551F2AC8E8A700B1124E /* VestibularQuestion.swift in Sources */,
 				0CCE54DC2AC8E2FF00B1124E /* AppDelegate.swift in Sources */,
+				0CCE551D2AC8E69800B1124E /* Vestibular2022.swift in Sources */,
+				0CCE55212AC8E90000B1124E /* Vestibular2021.swift in Sources */,
+				0CCE55292AC8EF6B00B1124E /* AnswersListVC.swift in Sources */,
+				0CECB1932AD1EA2E003D4F66 /* AnswerListNoAnswerCell.swift in Sources */,
 				0CCE54DE2AC8E2FF00B1124E /* SceneDelegate.swift in Sources */,
+				0CCE552B2AC8F01E00B1124E /* AnswerListCell.swift in Sources */,
+				0CCE552E2ACA33E200B1124E /* OptionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +376,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CCE54FF2AC8E30000B1124E /* Treino_VestibularUITestsLaunchTests.swift in Sources */,
-				0CCE54FD2AC8E30000B1124E /* Treino_VestibularUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,12 +543,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kumadev.Treino-Vestibular";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumadev.TreinoVestibular;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -473,12 +572,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kumadev.Treino-Vestibular";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumadev.TreinoVestibular;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -534,6 +634,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L5C36X97NN;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kumadev.Treino-VestibularUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -552,6 +653,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L5C36X97NN;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kumadev.Treino-VestibularUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -602,6 +704,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0CCE550B2AC8E32A00B1124E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0CCE550C2AC8E32A00B1124E /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CCE550B2AC8E32A00B1124E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0CCE54D02AC8E2FF00B1124E /* Project object */;
 }

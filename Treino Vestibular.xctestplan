@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "7ABBC478-67CA-44AA-8256-BFB09DE86A80",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Treino Vestibular.xcodeproj",
+      "identifier" : "0CCE54D72AC8E2FF00B1124E",
+      "name" : "Treino Vestibular"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Treino Vestibular.xcodeproj",
+        "identifier" : "0CCE54ED2AC8E30000B1124E",
+        "name" : "Treino VestibularTests"
+      }
+    }
+  ],
+  "version" : 1
+}
